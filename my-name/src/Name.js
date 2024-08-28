@@ -45,7 +45,7 @@ function Name() {
           required
         />
       </div>
-      <button type="submit" disabled={!firstName || !lastName}>
+      <button type="submit" abled={firstName || lastName  }>
         Submit
       </button>
     </form>
